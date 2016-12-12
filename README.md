@@ -21,10 +21,7 @@ my mobile input framework powered by angularjs
 </html>
 ```
 ###API
-"lable" define the lable of the input.
-<br>
-"type"  define the type of input
-<br>
-"placeholder" define the placeholder.
-<br>
-"model" similar as ng-model bind the input with the model.
+####"lable" define the lable of the input.
+####"type"  define the type of input
+####"placeholder" define the placeholder.
+####"model" similar as ng-model bind the input with the model.
