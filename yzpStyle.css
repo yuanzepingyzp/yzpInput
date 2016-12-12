@@ -1,0 +1,43 @@
+yzp-input{
+    font-family: '微软雅黑';
+}
+yzp-input label{
+	font-weight:500;
+    color:#3a8e9b;
+}
+/*输入框样式*/
+yzp-input input{
+    font-size: 15px;
+    padding: 5px;
+	border-radius:3px;
+    border:1px solid #cfd5dd;
+    width:96%;
+    outline: none;
+}
+yzp-input input:focus{
+    border: 1px  solid #47c6d3;;
+}
+/*清除按钮样式*/
+yzp-input clear{
+    position: absolute;
+    right:5%;
+    color: #3a8e9b;
+    cursor:pointer;
+}
+/*建议选项样式*/
+yzp-input ul{
+    margin: 0;
+    padding: 0;
+    color:rgb(100,100,100);
+}
+yzp-input optionlist li{
+    padding: 2px 5px;
+    list-style: none;
+    cursor: pointer;
+    width: 96%;
+}
+/*建议选项高亮样式*/
+yzp-input optionlist li:hover{
+    background-color:#3a8e9b;
+    color:white;
+}
