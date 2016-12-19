@@ -26,4 +26,4 @@ my mobile input framework powered by angularjs
 ####"placeholder" define the placeholder.
 ####"model" similar as ng-model bind the input with the model.
 ##总结
-######在angularjs中实现元素显示隐藏的指令有ngShow,ngHide,ngIf.前两个的实现原理是通过改变dom元素的display属性，ngif这是通过增加及删除dom元素，并且ngif会创建独立作用域，这意味着在指令内无法访问父元素的scope，产生让人无法理解的错误，在此备忘
+######在angularjs中实现元素显示隐藏的指令有ngShow,ngHide,ngIf.前两个的实现原理是通过改变dom元素的display属性，ngif这是通过增加及删除dom元素，并且ngif会创建独立作用域，这意味着在指令内无法访问父元素的scope，产生让人无法理解的错误，在此备忘，所以应该尽量避免使用ngshow代替ngif如果实在需要使用ngif指令可能需要scope.$parent获取父级scope
